@@ -6,9 +6,6 @@ git clone https://github.com/askjdhx/A-.git
 ## 克隆指定分支（比如 develop）
 git clone -b develop https://github.com/askjdhx/A-.git
 ---
-## 切换分支到 develop
-git checkout develop
----
 ## 拉取远程最新代码（推送前一定要先拉取）
 git pull
 ---
@@ -20,10 +17,6 @@ git commit -m "这里写本次提交的简短说明"
 ---
 ## 推送更改到远程分支（当前分支）
 git push
----
-## 合并 develop 分支到 main 分支
-git checkout main
-git merge develop
 ---
 ## 额外提示
 - 避免多人同时修改同一个文件，防止冲突
