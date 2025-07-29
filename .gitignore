@@ -1,5 +1,10 @@
-venv/ 
-__pycache__/ 
-*.pyc 
-*.log 
-.vscode/ 
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.swp
+*.tmp
+.DS_Store
+.vscode/
+.env
